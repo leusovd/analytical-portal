@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="theme-color" content="#ffffff">
-    <title>Map</title>
+    <title>Building Map</title>
     <style type="text/css">
         @font-face {
             font-family: 'PFDinCondenced';
@@ -119,10 +119,10 @@
         }
     </style>
     <link rel="stylesheet" href="css/main.min.css" media="print" onload="this.media='all'">
-    <link rel="stylesheet" href="css/map.min.css" media="print" onload="this.media='all'">
+    <link rel="stylesheet" href="css/building-map.min.css" media="print" onload="this.media='all'">
 </head>
 
-<body class="body -map">
+<body class="body -building-map">
     <div class="site-wrapper">
         <header class="site-header">
             <div class="container">
@@ -170,17 +170,17 @@
                     <nav class="breadcrumbs">
                         <a href="#" class="breadcrumbs_link">Головна</a>
                         <a href="#" class="breadcrumbs_link">Аналітичний портал</a>
-                        <a href="#" class="breadcrumbs_link">Бюджет розвитку</a>
+                        <a href="#" class="breadcrumbs_link">Карта ремонтів</a>
                     </nav>
                 </div>
             </section>
             <section class="section -hero">
                 <div class="container">
                     <div class="hero">
-                        <h1 class="hero_title section-title">Бюджет розвитку</h1>
+                        <h1 class="hero_title section-title">Карта ремонтів</h1>
                         <div class="hero_content">
                             <div class="hero_map map">
-                                <iframe class="map_frame" src="https://www.google.com/maps/d/u/0/embed?mid=16wOHugOQscvBne63WbvOY49ZjXEZM-tF" scrollwheel="false" width="640" height="480"></iframe>
+                                <img class="map_frame" src="img/dev/placeholders/map-building.jpg" alt="Map placeholder">
                             </div>
                         </div>
                     </div>
@@ -272,7 +272,7 @@
             </div>
         </div>
     </div>
-    <script async src="js/map.bundle.js"></script>
+    <script async src="js/building-map.bundle.js"></script>
 </body>
 
 </html>
